@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Animal Vocabulary Practice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🐾 Animal Vocabulary Practice 🐾</h1>
+
+    <div id="lesson">
+      <h2>Let's Learn the Animals!</h2>
+      <img id="animalImage" src="" alt="Animal">
+      <h3 id="animalName">Press Next to Start</h3>
+      <button id="soundBtn">🔊 Hear Sound</button>
+      <button id="nextBtn">Next Animal ➡️</button>
+      <p id="score">Score: 0</p>
+      <button id="testBtn">Go to Quiz 📝</button>
+    </div>
+
+    <div id="quiz" style="display:none;">
+      <h2>📝 Fill in the missing letter!</h2>
+      <p id="quizQuestion"></p>
+      <input type="text" id="answerInput" placeholder="Type your answer here">
+      <button id="checkBtn">Check</button>
+      <p id="feedback"></p>
+      <p id="quizScore">Quiz Score: 0</p>
+      <button id="backBtn">⬅️ Back to Lesson</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
